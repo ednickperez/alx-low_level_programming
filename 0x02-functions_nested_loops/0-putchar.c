@@ -3,11 +3,8 @@
  *  * main - Prints Holberton
  *    * Return: Always 0 (Success)
  **/
-int main(void)
+int _putchar(char c)
 {
-	_putchar('A');
-	_putchar('L');
-	_putchar('X');
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
+
