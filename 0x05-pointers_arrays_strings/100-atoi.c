@@ -21,7 +21,6 @@ int _atoi(char *s)
 			size++;
 		}
 		count++;
-
 	}	
 
 	for (i = count - size; i < count; i++)
