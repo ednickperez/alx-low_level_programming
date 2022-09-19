@@ -21,7 +21,9 @@ int _atoi(char *s)
 			size++;
 		}
 		count++;
+
 	}	
+
 	for (i = count - size; i < count; i++)
 	{
 		oi = oi + ((*(s + i) - 48) * m);
