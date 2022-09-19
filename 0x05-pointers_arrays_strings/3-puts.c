@@ -1,7 +1,7 @@
 #include "stdio.h"
 /**
  *  * _puts - prints a string, followed by a new line.
- *   * @kirui: input string.
+ *   * @str: input string.
  *    * Return: no return.
 **/
 void _puts(char *str)
