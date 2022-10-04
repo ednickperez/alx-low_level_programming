@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  * _strdup - Entry point
+ *  *strdup - Entry point
  *   *@str: string we need to duplicate
  *    * Return: a pointer to the duplicated string or NULL
 **/
-char *_strdup(char *str)
+char *strdup(char *str)
 {
 	char *strnew = NULL;
 	unsigned int i
@@ -13,8 +13,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	for (n = 0; str[n] != '\0'; n++)
-		;
+	for (n = 0; str[n] != '\0'; n++);
 	strnew = (char *)malloc(n + 1 * sizeof(char));
 	if (strnew != NULL)
 	{
