@@ -4,7 +4,7 @@
 ** _strdup - Entry point
 **@str: string we need to duplicate
 ** Return: a pointer 
-**/
+*/
 char *_strdup(char *str)
 {
 	char *strnew = NULL;
